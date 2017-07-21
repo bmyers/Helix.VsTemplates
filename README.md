@@ -17,13 +17,13 @@ Custom configured templates for use with [LaubPlusCo.Helix.VsTemplates](https://
           </AdditinonalFiles>
         </ItemGroup>
     ````
-    * Remove: Templates.cs
 * packages.config
     * Add Glass.Mapper.Sc.Core
     * Add Castle.Core
 * *.Serialization.config
     * `<targetDataStore physicalRootPath="$(sourceFolder)\...`
 * Add Models folder
+* Add GlassMappings.cs file
 * Views/web.config
     * `<add namespace="Sitecore.Mvc" />`
 * HabitatStyle.Project.Module

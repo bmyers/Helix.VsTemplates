@@ -102,7 +102,9 @@
     <None Include="Properties\PublishProfiles\Local.pubxml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Properties\AssemblyInfo.cs" />    
+    <Compile Include="Properties\AssemblyInfo.cs" /> 
+	<Compile Include="Templates.cs" />
+	<Compile Include="GlassMappings.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Views\web.config" />
